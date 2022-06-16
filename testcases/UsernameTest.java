@@ -17,4 +17,9 @@ class UsernameTest {
 	public void testpassword() {
 		assertEquals(true, test.validPassword("Neha@201"));
 	}
+
+	@Test
+	public void testemail() {
+		assertEquals(true, test.validEmail("neha.nilesh@gmail.com"));
+	}
 }
